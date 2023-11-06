@@ -258,6 +258,20 @@ const data = {
     data: data,
     options: {}
 };
+const data = {
+    labels: labels,
+    datasets: [{
+    label: 'Debit',
+    backgroundColor: 'rgb(173, 216, 230)',
+    borderColor: 'rgb(173, 216, 230)',
+    data: [0, 0, 0, 0, 0, 0, 0, 0],
+    }]
+};
+    const config = {
+    type: 'line',
+    data: data,
+    options: {}
+};
   
 const myChart = new Chart(
 document.getElementById('myChart'),
